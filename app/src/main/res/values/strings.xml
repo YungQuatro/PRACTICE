@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sapphire Food</string>
+    <string name="txt_user">E-mail:</string>
+    <string name="txt_password">Пароль:</string>
+    <string name="btn_login">Логин</string>
+    <string name="btn_signUp">Регистрация</string>
+    <string name="marcos_f_c_rangel">Marcos F C Rangel</string>
+    <string name="txt_name">Sapphire Food</string>
+    <string name="hide_email">Введите адрес электронной почты</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="promotions">Акции</string>
+    <string name="txt_search">Поиск блюда:</string>
+    <string name="txt_menu_sales">Меню</string>
+    <string name="hint_seach_plate">Введите блюдо для поиска</string>
+    <string name="txt_list_plate">Блюда и напитки</string>
+    <string name="cadastro">Регистрация</string>
+    <string name="full_name">Имя:</string>
+    <string name="joao_da_silva">Введите ваше имя</string>
+    <string name="cpf">Фамилия:</string>
+    <string name="bord_date">Дата рождения:</string>
+    <string name="_123_456_789_01">Напишите вашу фамилию</string>
+    <string name="_01_01_2019">Введите вашу дату рождения.</string>
+    <string name="endere_o">Адрес доставки:</string>
+    <string name="number">Номер:</string>
+    <string name="rua_aparecida">Введите свой адрес</string>
+    <string name="_99">Введите свой номер</string>
+    <string name="neighborhood">Район:</string>
+    <string name="reference">Дом</string>
+    <string name="referencepoint">Дом</string>
+    <string name="jardim_nova_alianca">Район</string>
+    <string name="city">Город</string>
+    <string name="vargem_grande_do_sul">Vargem Grande do Sul</string>
+    <string name="cep">CEP:</string>
+    <string name="state">Состояние:</string>
+    <string name="_13870_001">13870-001</string>
+    <string name="sao_paulo">Сан-паулу</string>
+    <string name="female">Женщина</string>
+    <string name="male">Мужчина</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="your_email">Введите адрес электронной почты</string>
+    <string name="whatsapp">Контакты:</string>
+    <string name="_19_99999_9999">Введите свой мобильный телефон</string>
+    <string name="finalizar">Готово</string>
+    <string name="preencha_os_campos">Пожалуйста, заполните обязательные поля</string>
+    <string name="password">Введите пароль</string>
+    <string name="password_RETYPE">Повторите пароль</string>
+    <string name="pass">Пароль:</string>
+    <string name="your_password">Введите пароль!</string>
+    <string name="your_phone">Введите номер телефона!</string>
+    <string name="your_email2">Введите свой номер телефона!</string>
+    <string name="your_cpf">Введите вашу фамилию!</string>
+    <string name="your_name">Введите ваше имя!</string>
+    <string name="registration_completed"> Ваша регистрация успешно завершена! :)</string>
+    <string name="registration_error">Ошибка! :s</string>
+    <string name="login_load">Ожидание входа... </string>
+    <string name="my_points">Мои баллы</string>
+    <string name="code">Код:</string>
+    <string name="_2071">2071</string>
+    <string name="client">Клиент:</string>
+    <string name="points">Очки:</string>
+    <string name="_8">0</string>
+    <string name="txt_open">Запрос</string>
+    <string name="txt_close">Закрыто</string>
+    <string name="txt_order">заказ</string>
+    <string name="txt_orders">Элементы заказа:</string>
+    <string name="ridio_btn_Delivery">Доставить</string>
+    <string name="radio_btn_withdraw">Вывести</string>
+    <string name="txt_total">0</string>
+    <string name="btn_final">Завершить заказ</string>
+    <string name="txt_type_payment">Оплатить с помощью:</string>
+    <string name="txt_change_to">Изменить на:</string>
+    <string name="hint_total">Всего:</string>
+    <string name="title_activity_act_cardap">Меню</string>
+    <string name="action_settings">Настройки</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_act_cardapio">Меню</string>
+
+    <string-array name="titles_tab">
+        <item>ВВОД</item>
+        <item>ГОРЯЧИЕ БЛЮДА</item>
+        <item>ХОЛОДНЫЕ БЛЮДА</item>
+        <item>СУШИ</item>
+        <item>КОМБО</item>
+        <item>НАПИТКИ</item>
+    </string-array>
+
+    <string name="txt_enter">ВВОД</string>
+    <string name="txt_plat_hot">ГОРЯЧИЕ БЛЮДА</string>
+    <string name="txt_plat_ace">ХОЛОДНЫЕ БЛЮДА</string>
+    <string name="txt_portions">ПОРЦИИ</string>
+    <string name="txt_temakis">СУШИ</string>
+    <string name="txt_combo">КОМБО</string>
+    <string name="txt_driks">НАПИТКИ</string>
+    <string name="btn_rescue">Использовать баллы</string>
+    <string name="txt_remember_password">Запомнить меня</string>
+    <string name="title_activity_navigation">Навигация</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+
+    <string name="menu_home">Домашняя страница</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайд-шоу</string>
+    <string name="menu_tools">Инструменты</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_send">Отправить</string>
+    <string name="menu_pont">Мои баллы</string>
+    <string name="txt_regirter_prod">Регистрация продукта</string>
+    <string name="txt_number_prod">Nº Продукта</string>
+    <string name="hint_name_prod">Введите название продукта</string>
+    <string name="txt_name_prod">Название продукта:</string>
+    <string name="txt_decrition">Описание:</string>
+    <string name="txt_price_prod">Стоимость:</string>
+    <string name="txt_type">Выберите тир:</string>
+    <string name="txt_Is_promotion">Распродажа:</string>
+    <string name="txt_url_img">URL адрес изображения:</string>
+    <string name="txt_splash">Fast Delivery</string>
+    <string name="txt_splash_fone">19 9.8605-6578</string>
+    <string name="vgs">.</string>
+    <string name="SP">.</string>
+    <string name="we_are_not_open">Мы закрыты</string>
+    <string name="we_are_open_now">Мы открыты</string>
+    <string name="app_finished">Sapphire food!</string>
+    <string name="please_type_password">Пожалуйста, заполните это поле!</string>
+    <string name="please_type_email">Пожалуйста, заполните это поле!</string>
+    <string name="type_email_and_pass">Пожалуйста, введите адрес электронной почты и пароль для входа или регистрации.</string>
+    <string name="user_not_loged">Зарегистрированный пользователь !</string>
+    <string name="user_loged">Зарегистрированный пользователь!</string>
+    <string name="error_to_access">Не удалось получить доступ! =[</string>
+    <string name="welcome">Добро пожаловать! =]</string>
+    <string name="email_rememberd">Мы вас запомнили!</string>
+    <string name="email_not_rememberd">Мы вас не запомнили!</string>
+    <string name="pass_not_equals">Пароли должны совпадать</string>
+    <string name="pass_not_equals2">Пароли не совпадают :s</string>
+    <string name="try_another_pass">Попробуйте другой пароль</string>
+    <string name="wrong_pass">Пароль должен содержать не менее 6 символов:s</string>
+    <string name="menu_entrada">Ввод</string>
+    <string name="menu_edtcadastro">Регистрация</string>
+    <string name="menu_cad_prod">Регистрация продукта</string>
+    <string name="txt_car_item">Корзина:</string>
+    <string name="txt_quant_item">Элементы:</string>
+    <string name="txt_qt">0</string>
+    <string name="txt_total_order">R$:</string>
+    <string name="menu_sattus">Статус заказа</string>
+    <string name="txt_previsap_entrega">40 минут</string>
+    <string name="txt_desconto">Скидка:</string>
+    <string name="no_connection">Нет соединения!</string>
+    <string name="offile_device">Нет подключения</string>
+    <string name="check_your_connecntion">Проверьте подключение к интернету.</string>
+    <string name="sushu_address">Адрес</string>
+    <string name="sushi_neigh">Дом</string>
+    <string name="sushi_number">Номер</string>
+    <string name="click_twice">Кликните два раза для изменения адреса доставки!</string>
+    <string name="you_dont_have_products">В вашей корзине нет товаров.</string>
+    <string name="firs_add_products">Сначала добавьте элементы, чтобы задать адрес.</string>
+    <string name="please_add_your_address">Добавьте адрес доставки.</string>
+    <string name="there_are_no_items">Нет товаров для оформления заказов! =x</string>
+    <string name="please_wait">Пожалуйста подождите...</string>
+    <string name="checkout1">Доставка в:</string>
+    <string name="checkout2">Выдача в:</string>
+    <string name="end_order">Завершить заказ</string>
+    <string name="confirm_order">Подвердить заказ:</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="try_when_we_are_open">Попробуйте оформить заказ позже! :)</string>
+    <string name="not_confirmed">Заказ не подтвержден!</string>
+    <string name="remove_item">Удалить элемент</string>
+    <string name="are_you_removing">Вы удаляете:</string>
+    <string name="remove">Удалить</string>
+    <string name="item_removed">Товар удален из вашей корзины! ;)</string>
+    <string name="cancel">Отмена</string>
+    <string name="order_confirmed">Заказ подтвержден</string>
+    <string name="confirmed">Подтверждено</string>
+    <string name="txt_custo_entrega">Стоимость доставки:</string>
+    <string name="txt_addtional">Дополнительно</string>
+    <string name="menu_add">Дополнительно</string>
+    <string name="img_promotion">Блюда со скидкой</string>
+</resources>
+

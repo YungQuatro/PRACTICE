@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="design.wendreo.hashisushi">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".utils.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity android:name=".views.ActInfo" />
+        <activity android:name=".views.policyPrivacy.ActPolicyPrivacy" />
+        <activity android:name=".views.ActWait" />
+        <activity android:name=".views.ActLogin" />
+        <activity android:name=".views.ActOrder" />
+        <activity android:name=".views.ActSignup" />
+        <activity android:name=".views.ActPromotion" />
+        <activity android:name=".views.ActPoints" />
+
+        <activity android:name=".views.ActSplash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.cardap.ActSaleCardap"
+            android:parentActivityName=".views.cardap.ActPlatHot">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActPlatHot" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActPlatHot"
+            android:parentActivityName=".views.cardap.ActPlatAce">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.ActPoints" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActPlatAce"
+            android:parentActivityName=".views.cardap.ActTemakis">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActTemakis" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActTemakis"
+            android:parentActivityName=".views.cardap.ActCombo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActCombo" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActCombo"
+            android:parentActivityName=".views.cardap.ActPortions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActPortions" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActPortions"
+            android:parentActivityName=".views.cardap.ActAdditional">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActAdditional" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActAdditional"
+            android:parentActivityName=".views.cardap.ActDrinks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActDrinks" />
+        </activity>
+        <activity
+            android:name=".views.cardap.ActDrinks"
+            android:parentActivityName=".views.ActOrder">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="design.wendreo.hashisushi.views.cardap.ActDrinks" />
+        </activity>
+    </application>
+
+</manifest>

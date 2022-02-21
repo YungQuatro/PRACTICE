@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActSignUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSilver"
+    android:padding="20dp"
+    tools:context="design.wendreo.hashisushi.views.ActSignup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCadLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sapphire Food"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="Личный кабинет"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textview_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Имя"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ваше имя"
+            android:inputType="textPersonName|textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_user_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фамилия"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/user_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_user_cpf"
+            android:hint="Введите вашу фамилию"
+            android:inputType="textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_user_born_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textview_user_cpf"
+            android:text="Дата рождения"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/user_born_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Укажите вашу дату рождения"
+            android:inputType="date"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp"
+            app:mask="##/##/####" />
+
+        <TextView
+            android:id="@+id/textview_user_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cep"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/user_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:enabled="false"
+            android:hint="@string/_13870_001"
+            android:inputType="number"
+            android:text="13880-000"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorHintText"
+            android:visibility="gone"
+            app:mask="#####-###" />
+
+        <TextView
+            android:id="@+id/textview_user_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/state"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/user_adress_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/sao_paulo"
+            android:inputType="text"
+            android:text="@string/SP"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorHintText"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textview_user_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Город"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:hint="Укажите ваш город"
+            android:inputType="text"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText" />
+
+        <TextView
+            android:id="@+id/textview_user_address_neighborhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Район"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_address_neighborhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Укажите ваш район"
+            android:inputType="text|textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_user_address_street"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Адрес доставки"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_address_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ваш адрес"
+            android:inputType="text|textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_user_address_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер дома"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_address_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Укажите его номер"
+            android:inputType="text|number|textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textview_user_reference_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Подъезд"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_reference_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Укажите номер подъезда"
+            android:inputType="text|textCapWords"
+            android:textAllCaps="true"
+            android:textColor="@color/colorHintText"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Контактный номер"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Сообщите ваш номер"
+            android:inputType="phone|textCapCharacters"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp"
+            app:mask="(+7(###)###-##-##" />
+
+        <TextView
+            android:id="@+id/textview_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите свой адрес эл.почты"
+            android:inputType="textEmailAddress"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пароль"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorHintText">
+
+            <EditText
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите пароль"
+                android:inputType="textPassword"
+                android:textColor="@android:color/background_light"
+                android:textColorHint="@color/colorHintText"
+                android:textSize="18sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorHintText">
+
+            <EditText
+                android:id="@+id/user_password_RETYPE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите пароль ещё раз"
+                android:inputType="textPassword"
+                android:textColor="@color/colorHintText"
+                android:textColorHint="@color/colorHintText"
+                android:textSize="18sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_user_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_border"
+            android:text="Сохранить"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
